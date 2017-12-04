@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tools>
+    <data type="boolean" key="xhtml" value="true"/>
+    <data type="boolean" key="isSimple" value="true"/>
+    <data type="number" key="version" value="2.0"/>
+    <data key="foo">this is foo</data>
+    <data key="bar">this is bar.</data>
+
+    <toolbox scope="request">
+        <!-- <tool key="toytool" class="ToyTool" restrictTo="index*"/> -->
+    </toolbox>
+
+    <toolbox scope="session">
+        <!-- <tool key="map" class="java.util.HashMap"/> -->
+    </toolbox>
+
+    <toolbox scope="application">
+        <tool key="map" class="java.util.HashMap"/>
+        <tool key="dateTool" class="org.apache.velocity.tools.generic.DateTool"/>
+        <tool key="homeModule" class="com.cdj.cms.WebUrl" />
+
+
+    </toolbox>
+
+
+
+</tools>

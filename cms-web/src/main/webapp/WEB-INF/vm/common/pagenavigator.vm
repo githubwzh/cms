@@ -1,0 +1,7 @@
+#set($count_keys = 5)
+#if($pageinator.page>1)
+	#set($pre_page = $paginator.page - 1)
+	<a class="last" href="$baseUrl.addQueryData("currPage",$pre_page)">上一页</a>
+#else
+	<a class="last_none1" disabled="disabled">上一页</a>	
+#end

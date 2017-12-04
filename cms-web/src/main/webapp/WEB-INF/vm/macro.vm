@@ -1,0 +1,161 @@
+#macro (showPage $module $page)
+    #if($page)
+    #set($pagePos = 2) ##当前页的尾巴长度
+    总$!{page.totalItem}条记录
+    #if($page.previousPageAvailable) ##如果能向上翻页
+    <a class="prev-pageBar" href="$module.addQueryData("page",$!{page.previousPage}).render()">上一页</a>
+    <a href="$module.addQueryData("page",1).render()">1</a>
+    #else
+	<a class="prev-disabled">上一页</a>
+	#end
+    #if($!page.index>$pagePos+2) .. #end ##显示前面的省略号
+    #foreach($i in [$pagePos..1]) ##增加前面的尾巴
+        #if($!page.index - $i > 1)
+            #set($pageIndex= $!page.index - $i)
+        <a  href="$module.addQueryData("page",$pageIndex).render()">$pageIndex</a>
+        #end
+    #end
+    <span class="current" >$!page.index</span> ##显示当前页号
+    #foreach($i in [1..$pagePos]) ##增加后面的尾巴
+        #if($!page.totalPage - $!page.index - $i > 0)
+            #set($pageIndex= $!page.index + $!i)
+        <a href="$module.addQueryData("page",$pageIndex).render()">$pageIndex</a>
+        #end
+    #end
+    #if($!page.totalPage - $!page.index > $pagePos+1) .. #end ##显示后面的省略号
+    #if($page.nextPageAvailable) ##显示后面的页
+    <a href="$module.addQueryData("page",$!{page.totalPage}).render()">$!{page.totalPage}</a>
+    <a href="$module.addQueryData("page",$!{page.nextPage}).render()">下一页</a>
+	#else
+	<a class="next-disabled">下一页</a>
+	#end
+    $!module.reset()
+    #end
+#end
+
+#macro(showSimpleError)
+    #if(!$!actionErrors.empty)
+        #foreach($str in $actionErrors)
+            $!str
+            #break
+        #end
+    #end
+#end
+
+#macro(showError)
+    #if(!$!actionErrors.empty)
+        #foreach($str in $actionErrors)
+        <li>$!str</li>
+        #end
+    #end
+#end
+
+#macro(showSimpleMessage)
+    #if(!$!actionMessages.empty)
+        #foreach($str in $actionErrors)
+            $!str
+            #break
+        #end
+    #end
+#end
+
+#macro(showMessage)
+    #if(!$!actionMessages.empty)
+        #foreach($str in $actionErrors)
+        <li>$!str</li>
+        #end
+    #end
+#end
+
+#macro(shelfTab $tid $skuId)
+    <div class="tab">
+    	<ul>
+        	   <li #if($tid=="1") class="now" #end><b></b><span><a href="edit?skuId=${skuId}">通用信息</a></span><em></em></li>
+			   <li #if($tid=="2") class="now" #end><b></b><span><a href="wdis?skuId=${skuId}">商品介绍</a></span><em></em></li>
+			   <li #if($tid=="3") class="now" #end><b></b><span><a href="#">规格参数</a></span><em></em></li>
+			   <li #if($tid=="4") class="now" #end><b></b><span><a href="pack?skuId=${skuId}">包装清单</a></span><em></em></li>
+			   <li #if($tid=="5") class="now" #end><b></b><span><a href="#">库房变更</a></span><em></em></li>
+			   <li #if($tid=="6") class="now" #end><b></b><span><a href="#">关联知识库</a></span><em></em></li>
+			   <li #if($tid=="7") class="now" #end><b></b><span><a href="#">专业评测</a></span><em></em></li>
+        </ul>
+    </div>
+#end
+
+#macro(salesTab $tid $skuId)
+    <div class="tab">
+    	<ul>
+        	   <li #if($tid=="1") class="now" #end><b></b><span><a href="detail?skuId=${skuId}">商品管理</a></span><em></em></li>
+			   <li #if($tid=="2") class="now" #end><b></b><span><a href="listSize?skuId=${skuId}">尺码管理</a></span><em></em></li>
+			   <li #if($tid=="3") class="now" #end><b></b><span><a href="#">扩展属性</a></span><em></em></li>
+			   <li #if($tid=="4") class="now" #end><b></b><span><a href="#">价格信息</a></span><em></em></li>
+			   <li #if($tid=="5") class="now" #end><b></b><span><a href="#">特殊属性</a></span><em></em></li>
+        </ul>
+    </div>
+#end
+
+#macro(stateSalesButton $skuId $state)
+	<div class="right">
+			<div class="zt">采销商品管理:
+				#if($state==1)
+				<span>上柜</span>
+				#end
+				#if($state==0)
+				<span>下柜</span>
+				#end
+				#if($state==2)
+				<span>可上柜</span>
+				#end
+			</div>
+    <div class="btn">
+		
+	  #if($state==2)
+		<input type="button" name="button1" id="button1" value="上柜" onclick="upState($skuId);"/>
+	  #end
+	  #if($state==1)
+		<input type="button" name="button2" id="button2" value="下柜" onclick="downState($skuId);"/>
+	  #end
+		<input type="button" name="button4" id="button4" value="预览" />
+    </div>
+	
+  </div>
+#end
+
+#macro(stateShelfButton $skuId $state)
+	<div class="right">
+			<div class="zt">商品信息管理:
+				#if($state==1)
+				<span>上柜</span>
+				#end
+				#if($state==0)
+				<span>下柜</span>
+				#end
+				#if($state==2)
+				<span>可上柜</span>
+				#end
+			</div>
+    <div class="btn">
+		
+	  #if($state==2)
+		<input type="button" name="button2" id="button2" value="下柜" onclick="downState($skuId);"/>
+	  #end
+	  #if($state==0)
+		<input type="button" name="button3" id="button3" value="设置可上柜" onclick="ableUpState($skuId);"/>
+	  #end
+		<input type="button" name="button4" id="button4" value="预览" />
+    </div>
+	
+  </div>
+#end
+
+#macro(showPager)
+    <div id="pager" class="i-page" style="text-align: center">
+        <a id="i-firstPage" href="#" onclick="goFirstPage()">首页</a>
+        <a id="i-prePage" href="#" onclick="goPrePage()">上一页</a>
+        <span>第</span>
+        <input id="i-currentPage" type="text" value="" style="vertical-align:top;width:25px;height:18px;font-size: 10px" onchange="goInputPage()">
+        <span>页&nbsp;&nbsp;</span>
+        <a id="i-nextPage" href="#" onclick="goNextPage()">下一页</a>
+        <a id="i-lastPage" href="#" onclick="goLastPage()">末页</a>
+        <div style="float: right; width:50px;"><span>共</span><span id="i-totalPage">1</span><span>页</span></div>
+    </div>
+#end

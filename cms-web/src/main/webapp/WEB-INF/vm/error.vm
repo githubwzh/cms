@@ -1,0 +1,56 @@
+
+<style type="text/css">
+body{
+	font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+
+	}
+   #messageArea{
+	   background-color:#fff;
+	   width:60%;
+	   margin:0 auto;
+	   border: solid 1px #D4D4D4;
+	   }
+	#title{
+		width:100%;
+		margin:0;
+		height:28px;
+		line-height:28px;
+		background-color:#FFC;
+		border-bottom: solid 1px #D4D4D4;
+	}
+	#titleMemo{
+
+		 font-weight: bold;
+		 color:red;
+		 margin-left: 7px;
+		}
+	#errorMemo{
+		border-top: solid 1px #D4D4D4;
+		}
+	 .titleStyle{
+		 font-weight: bold;
+		 font-style:normal;
+		 }
+		 p{
+			 margin-left: 24px;
+			 font-style:italic;
+			 }
+</style>
+<body>
+
+<div style="width:60%;height:60px;"><p></p></div>
+	
+<div id="messageArea">
+
+   <div id="title">
+         <div style="margin:0;float:center;" align="center">
+           #if($!{detail}!="")
+                $!{detail}
+               系统繁忙，请联系管理员vm
+           #else
+                 系统繁忙，请联系管理员vm
+           #end
+         </div>
+    </div>
+</div>
+</body>

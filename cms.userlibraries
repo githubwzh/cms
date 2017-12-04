@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.javassist:javassist:3.15.0-GA">
+    <archive path="D:/software/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar" />
+  </library>
+  <library name="Maven: com.womai.common.framework:framework-web:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/framework/framework-web/1.0-SNAPSHOT/framework-web-1.0-20140930.082240-23.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-json-plugin:2.3.15.1">
+    <archive path="D:/software/repository/org/apache/struts/struts2-json-plugin/2.3.15.1/struts2-json-plugin-2.3.15.1.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:zlwms-public-common:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/zlwms-public-common/4.0-SNAPSHOT/zlwms-public-common-4.0-20170530.122921-78.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-aop/3.1.0.RELEASE/spring-aop-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-chain:commons-chain:1.1">
+    <archive path="D:/software/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar" />
+  </library>
+  <library name="Maven: javax.transaction:jta:1.1">
+    <archive path="D:/software/repository/javax/transaction/jta/1.1/jta-1.1.jar" />
+  </library>
+  <library name="Maven: com.womai.common.framework:framework-domain:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/framework/framework-domain/1.0-SNAPSHOT/framework-domain-1.0-20140930.082240-23.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-spring-plugin:2.3.15.1">
+    <archive path="D:/software/repository/org/apache/struts/struts2-spring-plugin/2.3.15.1/struts2-spring-plugin-2.3.15.1.jar" />
+  </library>
+  <library name="Maven: org.apache.velocity:velocity:1.7">
+    <archive path="D:/software/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar" />
+  </library>
+  <library name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0">
+    <archive path="D:/software/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar" />
+  </library>
+  <library name="Maven: com.womai.common.tool:tool-util:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/tool/tool-util/1.0-SNAPSHOT/tool-util-1.0-20140530.135744-12.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-core:4.1.4.RELEASE">
+    <archive path="D:/software/repository/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.jboss.netty:netty:3.2.5.Final">
+    <archive path="D:/software/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-test:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-test/3.1.0.RELEASE/spring-test-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: log4j:log4j:1.2.16">
+    <archive path="D:/software/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:zlwms-public-domain:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/zlwms-public-domain/4.0-SNAPSHOT/zlwms-public-domain-4.0-20170601.073729-87.jar" />
+  </library>
+  <library name="Maven: com.womai.wms.auth.client:wms-auth-api:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/wms/auth/client/wms-auth-api/1.0-SNAPSHOT/wms-auth-api-1.0-20170525.015055-194.jar" />
+  </library>
+  <library name="Maven: stax:stax-api:1.0.1">
+    <archive path="D:/software/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.2">
+    <archive path="D:/software/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Maven: com.womai.common.framework:framework-struts:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/framework/framework-struts/1.0-SNAPSHOT/framework-struts-1.0-20140930.082240-23.jar" />
+  </library>
+  <library name="Maven: redis.clients:jedis:2.9.0">
+    <archive path="D:/software/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-core:2.3.15.1">
+    <archive path="D:/software/repository/org/apache/struts/struts2-core/2.3.15.1/struts2-core-2.3.15.1.jar" />
+  </library>
+  <library name="Maven: org.quartz-scheduler:quartz:1.8.4">
+    <archive path="D:/software/repository/org/quartz-scheduler/quartz/1.8.4/quartz-1.8.4.jar" />
+  </library>
+  <library name="Maven: org.quartz-scheduler:quartz-weblogic:1.8.4">
+    <archive path="D:/software/repository/org/quartz-scheduler/quartz-weblogic/1.8.4/quartz-weblogic-1.8.4.jar" />
+  </library>
+  <library name="Maven: net.sf.json-lib:json-lib:jdk15:2.3">
+    <archive path="D:/software/repository/net/sf/json-lib/json-lib/2.3/json-lib-2.3-jdk15.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts-tiles:1.3.8">
+    <archive path="D:/software/repository/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar" />
+  </library>
+  <library name="Maven: asm:asm:3.3">
+    <archive path="D:/software/repository/asm/asm/3.3/asm-3.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-tx/3.1.0.RELEASE/spring-tx-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-web/3.1.0.RELEASE/spring-web-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-validator:commons-validator:1.3.1">
+    <archive path="D:/software/repository/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar" />
+  </library>
+  <library name="Maven: com.oracle:ojdbc14:10.2.0.4">
+    <archive path="D:/software/repository/com/oracle/ojdbc14/10.2.0.4/ojdbc14-10.2.0.4.jar" />
+  </library>
+  <library name="Maven: net.sf.ezmorph:ezmorph:1.0.6">
+    <archive path="D:/software/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar" />
+  </library>
+  <library name="Maven: sslext:sslext:1.2-0">
+    <archive path="D:/software/repository/sslext/sslext/1.2-0/sslext-1.2-0.jar" />
+  </library>
+  <library name="Maven: com.womai.common.framework:framework-dao:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/framework/framework-dao/1.0-SNAPSHOT/framework-dao-1.0-20140930.082240-23.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-core/3.1.0.RELEASE/spring-core-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-instrument:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-instrument/3.1.0.RELEASE/spring-instrument-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.jasig.cas.client:cas-client-core:3.1.12">
+    <archive path="D:/software/repository/org/jasig/cas/client/cas-client-core/3.1.12/cas-client-core-3.1.12.jar" />
+  </library>
+  <library name="Maven: commons-beanutils:commons-beanutils:1.8.3">
+    <archive path="D:/software/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar" />
+  </library>
+  <library name="Maven: org.iscreen.ognl:iscreen-ognl:2.0.1">
+    <archive path="D:/software/repository/org/iscreen/ognl/iscreen-ognl/2.0.1/iscreen-ognl-2.0.1.jar" />
+  </library>
+  <library name="Maven: com.womai.wms.sms:wms-sms-api:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/wms/sms/wms-sms-api/4.0-SNAPSHOT/wms-sms-api-4.0-20170531.100922-56.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.3">
+    <archive path="D:/software/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-remoting:2.0.8">
+    <archive path="D:/software/repository/org/springframework/spring-remoting/2.0.8/spring-remoting-2.0.8.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-lang3:3.1">
+    <archive path="D:/software/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.8.2">
+    <archive path="D:/software/repository/junit/junit/4.8.2/junit-4.8.2.jar" />
+  </library>
+  <library name="Maven: org.apache.zookeeper:zookeeper:3.4.10">
+    <archive path="D:/software/repository/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar" />
+  </library>
+  <library name="Maven: commons-collections:commons-collections:3.2.2">
+    <archive path="D:/software/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
+  </library>
+  <library name="Maven: jline:jline:0.9.94">
+    <archive path="D:/software/repository/jline/jline/0.9.94/jline-0.9.94.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-beans/3.1.0.RELEASE/spring-beans-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-webmvc/3.1.0.RELEASE/spring-webmvc-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.9">
+    <archive path="D:/software/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts-core:1.3.8">
+    <archive path="D:/software/repository/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar" />
+  </library>
+  <library name="Maven: org.mybatis:mybatis:3.2.8">
+    <archive path="D:/software/repository/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar" />
+  </library>
+  <library name="Maven: org.apache.ibatis:ibatis-sqlmap:2.3.4.726">
+    <archive path="D:/software/repository/org/apache/ibatis/ibatis-sqlmap/2.3.4.726/ibatis-sqlmap-2.3.4.726.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-oxm:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-oxm/3.1.0.RELEASE/spring-oxm-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:5.1.21">
+    <archive path="D:/software/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21.jar" />
+  </library>
+  <library name="Maven: oro:oro:2.0.8">
+    <archive path="D:/software/repository/oro/oro/2.0.8/oro-2.0.8.jar" />
+  </library>
+  <library name="Maven: com.womai.wms.sms:wms-sms-domain:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/wms/sms/wms-sms-domain/4.0-SNAPSHOT/wms-sms-domain-4.0-20170531.100922-55.jar" />
+  </library>
+  <library name="Maven: commons-beanutils:commons-beanutils:1.7.0">
+    <archive path="D:/software/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:outstock-remote:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/outstock-remote/1.0-SNAPSHOT/outstock-remote-1.0-20170602.010631-152.jar" />
+  </library>
+  <library name="Maven: com.womai.ppclient:ppclient-zlwms:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/ppclient/ppclient-zlwms/1.0-SNAPSHOT/ppclient-zlwms-1.0-20170112.073610-22.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.6">
+    <archive path="D:/software/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-cas:3.1.4.RELEASE">
+    <archive path="D:/software/repository/org/springframework/security/spring-security-cas/3.1.4.RELEASE/spring-security-cas-3.1.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: javax.servlet:servlet-api:2.5">
+    <archive path="D:/software/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-convention-plugin:2.3.15.1">
+    <archive path="D:/software/repository/org/apache/struts/struts2-convention-plugin/2.3.15.1/struts2-convention-plugin-2.3.15.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-web:3.1.4.RELEASE">
+    <archive path="D:/software/repository/org/springframework/security/spring-security-web/3.1.4.RELEASE/spring-security-web-3.1.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-pool:commons-pool:1.6">
+    <archive path="D:/software/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms.soa:outstock-soa-api:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/soa/outstock-soa-api/4.0-SNAPSHOT/outstock-soa-api-4.0-20170602.010621-70.jar" />
+  </library>
+  <library name="Maven: commons-httpclient:commons-httpclient:3.1">
+    <archive path="D:/software/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" />
+  </library>
+  <library name="Maven: ognl:ognl:2.6.9">
+    <archive path="D:/software/repository/ognl/ognl/2.6.9/ognl-2.6.9.jar" />
+  </library>
+  <library name="Maven: io.netty:netty:3.10.5.Final">
+    <archive path="D:/software/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-pool2:2.4.2">
+    <archive path="D:/software/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar" />
+  </library>
+  <library name="Maven: commons-lang:commons-lang:2.6">
+    <archive path="D:/software/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.1">
+    <archive path="D:/software/repository/dom4j/dom4j/1.1/dom4j-1.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-asm:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-asm/3.1.0.RELEASE/spring-asm-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml:3.9">
+    <archive path="D:/software/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar" />
+  </library>
+  <library name="Maven: asm:asm-commons:3.3">
+    <archive path="D:/software/repository/asm/asm-commons/3.3/asm-commons-3.3.jar" />
+  </library>
+  <library name="Maven: com.womai.common.tool:tool-security:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/tool/tool-security/1.0-SNAPSHOT/tool-security-1.0-20140530.135744-12.jar" />
+  </library>
+  <library name="Maven: commons-digester:commons-digester:1.8">
+    <archive path="D:/software/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-context/3.1.0.RELEASE/spring-context-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-fileupload:commons-fileupload:1.3.1">
+    <archive path="D:/software/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11">
+    <archive path="D:/software/repository/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jms:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-jms/3.1.0.RELEASE/spring-jms-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:outstock-manager:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/outstock-manager/1.0-SNAPSHOT/outstock-manager-1.0-20170602.010631-575.jar" />
+  </library>
+  <library name="Maven: xml-apis:xml-apis:1.4.01">
+    <archive path="D:/software/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-orm:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-orm/3.1.0.RELEASE/spring-orm-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: xerces:xercesImpl:2.9.1">
+    <archive path="D:/software/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar" />
+  </library>
+  <library name="Maven: com.github.sgroschupf:zkclient:0.1">
+    <archive path="D:/software/repository/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.5">
+    <archive path="D:/software/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar" />
+  </library>
+  <library name="Maven: org.iscreen.mvel:iscreen-mvel:2.0.1">
+    <archive path="D:/software/repository/org/iscreen/mvel/iscreen-mvel/2.0.1/iscreen-mvel-2.0.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aspects:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-aspects/3.1.0.RELEASE/spring-aspects-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: asm:asm-tree:3.3">
+    <archive path="D:/software/repository/asm/asm-tree/3.3/asm-tree-3.3.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-config:4.1.4.RELEASE">
+    <archive path="D:/software/repository/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.womai.auth:auth-soa-domain:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/auth/auth-soa-domain/1.0-SNAPSHOT/auth-soa-domain-1.0-20170525.015324-350.jar" />
+  </library>
+  <library name="Maven: com.womai.common.framework:framework-zlwms-domain:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/framework/framework-zlwms-domain/1.0-SNAPSHOT/framework-zlwms-domain-1.0-20150715.075408-3.jar" />
+  </library>
+  <library name="Maven: com.alibaba:dubbo:2.4.5">
+    <archive path="D:/software/repository/com/alibaba/dubbo/2.4.5/dubbo-2.4.5.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.10">
+    <archive path="D:/software/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:outstock-common:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/outstock-common/1.0-SNAPSHOT/outstock-common-1.0-20170602.010631-15.jar" />
+  </library>
+  <library name="Maven: com.google.code.gson:gson:2.3.1">
+    <archive path="D:/software/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar" />
+  </library>
+  <library name="Maven: commons-io:commons-io:2.4">
+    <archive path="D:/software/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-log4j12:1.7.5">
+    <archive path="D:/software/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11">
+    <archive path="D:/software/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi:3.9">
+    <archive path="D:/software/repository/org/apache/poi/poi/3.9/poi-3.9.jar" />
+  </library>
+  <library name="Maven: com.womai.auth:auth-soa-common:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/auth/auth-soa-common/1.0-SNAPSHOT/auth-soa-common-1.0-20170525.015324-349.jar" />
+  </library>
+  <library name="Maven: org.apache.struts.xwork:xwork-core:2.3.15.1">
+    <archive path="D:/software/repository/org/apache/struts/xwork/xwork-core/2.3.15.1/xwork-core-2.3.15.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context-support:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-context-support/3.1.0.RELEASE/spring-context-support-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.freemarker:freemarker:2.3.19">
+    <archive path="D:/software/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar" />
+  </library>
+  <library name="Maven: com.google.code.kaptcha:kaptcha:2.3.2">
+    <archive path="D:/software/repository/com/google/code/kaptcha/kaptcha/2.3.2/kaptcha-2.3.2.jar" />
+  </library>
+  <library name="Maven: org.quartz-scheduler:quartz-oracle:1.8.4">
+    <archive path="D:/software/repository/org/quartz-scheduler/quartz-oracle/1.8.4/quartz-oracle-1.8.4.jar" />
+  </library>
+  <library name="Maven: velocity-tools:velocity-tools:1.2">
+    <archive path="D:/software/repository/velocity-tools/velocity-tools/1.2/velocity-tools-1.2.jar" />
+  </library>
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <archive path="D:/software/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:zlwms-public-utils:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/zlwms-public-utils/4.0-SNAPSHOT/zlwms-public-utils-4.0-20170530.122921-78.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts-taglib:1.3.8">
+    <archive path="D:/software/repository/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-jdbc/3.1.0.RELEASE/spring-jdbc-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:3.1.0.RELEASE">
+    <archive path="D:/software/repository/org/springframework/spring-expression/3.1.0.RELEASE/spring-expression-3.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-dbcp:commons-dbcp:1.4">
+    <archive path="D:/software/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar" />
+  </library>
+  <library name="Maven: com.womai.zlwms:zlwms-public-api:4.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/zlwms/zlwms-public-api/4.0-SNAPSHOT/zlwms-public-api-4.0-20170530.122921-81.jar" />
+  </library>
+  <library name="Maven: org.mybatis:mybatis-spring:1.2.2">
+    <archive path="D:/software/repository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.5">
+    <archive path="D:/software/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar" />
+  </library>
+  <library name="Maven: org.apache.velocity:velocity-tools:2.0">
+    <archive path="D:/software/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar" />
+  </library>
+  <library name="Maven: antlr:antlr:2.7.2">
+    <archive path="D:/software/repository/antlr/antlr/2.7.2/antlr-2.7.2.jar" />
+  </library>
+  <library name="Maven: com.womai.common.tool:tool-aop:1.0-SNAPSHOT">
+    <archive path="D:/software/repository/com/womai/common/tool/tool-aop/1.0-SNAPSHOT/tool-aop-1.0-20140530.135744-12.jar" />
+  </library>
+</eclipse-userlibraries>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>$!title</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+##    <meta http-equiv="Expires" content="0">
+##    <meta http-equiv="Pragma" content="no-cache">
+##    <meta http-equiv="Cache-control" content="no-cache">
+##    <meta http-equiv="Cache" content="no-cache">
+
+    #parse("/WEB-INF/vm/common/head.vm")
+
+</head>
+
+<body>
+##<script type="text/javascript" src="$!homeModule/gridui/jq/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="$!homeModule/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="$!homeModule/js/jquery-ui/jquery-ui.min.js"></script>
+<!-- jqgrid 表格插件-->
+<script type="text/javascript" src="$!homeModule/gridui/jq/js/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="$!homeModule/gridui/jq/js/i18n/grid.locale-cn.js"></script>
+<!-- validfrom 表单验证插件-->
+<script type="text/javascript" src="$!homeModule/js/validfrom/js/Validform_v5.3.2_min.js"></script>
+<!-- jquery辅助 BlockUI -->
+<script type="text/javascript" src="$!homeModule/js/jquery.blockUI.js"></script>
+
+<script type="text/javascript" src="$!homeModule/js/wmscommon_v2.0.js?v=4.0"></script>
+<script type="text/javascript" src="$!homeModule/js/jqgridcommon_v2.1.js?v=3.5.1"></script>
+
+<!-- 日期控件 -->
+<script type="text/javascript" src="$!homeModule/js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="$!homeModule/js/checkRules.js?v=3.5"></script>
+
+<!-- jquery ajaxfileupload -->
+<script type="text/javascript" src="$!homeModule/js/ajaxfileupload-v1.js"></script>
+<div>
+    $screen_content
+</div>
+
+</body>
+</html>

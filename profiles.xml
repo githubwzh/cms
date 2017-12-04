@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<profilesXml xmlns="http://maven.apache.org/PROFILES/1.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/PROFILES/1.0.0 http://maven.apache.org/xsd/profiles-1.0.0.xsd">
+
+    <profiles>
+
+        <profile>
+            <activation>
+                <os>
+                    <family>Windows</family>
+                </os>
+            </activation>
+            <id>local</id>
+            <properties>
+                <homeurl>http://cms.local</homeurl>
+                <wms.log.level>INFO</wms.log.level>
+                <wms.log.path>/opt/logs/resin/outstock-web/</wms.log.path>
+
+                <wms.velocity.macro.autoreload>true</wms.velocity.macro.autoreload>
+                <!--velocity的宏是否重新载入。生产环境要改为true -->
+                <wms.velocity.cache>false</wms.velocity.cache>
+                <wms.velocity.cache.time>10</wms.velocity.cache.time>
+
+<!--                <dubbo.application.name>outstock-web</dubbo.application.name>
+                <dubbo.registry.address>zoo1.womaiwms.dev:2181,zoo2.womaiwms.dev:2181,zoo3.womaiwms.dev:2181</dubbo.registry.address>
+                <dubbo.registry.group>/dubbo/outstocklocal</dubbo.registry.group>
+                <dubbo.registry.group.uic>/dubbo/dev</dubbo.registry.group.uic>
+                <dubbo.registry.protocol>zookeeper</dubbo.registry.protocol>-->
+            </properties>
+        </profile>
+
+        <profile>
+            <id>dev</id>
+            <properties>
+                <homeurl>http://cms.dev</homeurl>
+                <!--打印地址-->
+                <wms.log.level>ERROR</wms.log.level>
+                <wms.log.path>/opt/logs/resin/outstock-web/</wms.log.path>
+
+                <wms.velocity.macro.autoreload>true</wms.velocity.macro.autoreload>
+                <!--velocity的宏是否重新载入。生产环境要改为true -->
+                <wms.velocity.cache>false</wms.velocity.cache>
+                <wms.velocity.cache.time>10</wms.velocity.cache.time>
+
+  <!--              <dubbo.application.name>outstock-web</dubbo.application.name>
+                <dubbo.registry.address>zoo1.womaiwms.dev:2181,zoo2.womaiwms.dev:2181,zoo3.womaiwms.dev:2181</dubbo.registry.address>
+                <dubbo.registry.group>/dubbo/outstockdev</dubbo.registry.group>
+                <dubbo.registry.group.uic>/dubbo/dev</dubbo.registry.group.uic>
+                <dubbo.registry.protocol>zookeeper</dubbo.registry.protocol>-->
+            </properties>
+        </profile>
+
+
+
+
+
+
+
+
+
+
+    </profiles>
+
+</profilesXml>

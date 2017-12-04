@@ -1,0 +1,75 @@
+
+<style>
+    /* 修正标签页中tab后面的关闭按钮换行的问题*/
+    #tabs li .ui-icon-close {
+        float: left;
+        margin: 0.4em 0.2em 0px 0px;
+        cursor: pointer;
+    }
+</style>
+
+<div id="header">
+    <div id="o-topbar">
+        <p class="i-users">您好，$!{userName} &nbsp;&nbsp; 欢迎来到中粮我买网wms系统&nbsp;&nbsp;
+            <a href="$!loginUrl.getTarget('logout')" class="i-quit"> [退出]</a></p>
+    </div>
+
+</div>
+
+<div id="content">
+    <div id="o-left">
+
+        <!--start 左侧菜单 -->
+        <div class="i-menu1"><span>发货管理</span><div class="i-menu1-pic-right"> </div></div>
+        <!--二级菜单 -->
+        <div class="i-menu2">
+            <ul class="menu2-sub">
+                <li url="$!homeModule/outstock/toConfirmInfo.jhtml" name="confirminfo">录入确认</li>
+                <li url="$!homeModule/outstock/toOutstockConfirmInfoItem.jhtml" name="confirminfoItem">明细录入确认</li>
+                <li url="$!homeModule/outstock/toAllocate.jhtml" name="allocate">分配</li>
+                <li url="$!homeModule/outstock/toAllocateItem.jhtml" name="allocateItem">明细分配</li>
+##                <li url="" name="frozen">创建拣货单</li>
+                <li url="$!homeModule/outstock/toPickOrder.jhtml" name="pickorder">拣货</li>
+                <li url="$!homeModule/outstock/toZonePickOrder.jhtml" name="zonepickorder">四期拣货</li>
+                <li url="$!homeModule/outstock/toPackInfo.jhtml" name="packinfo">打包</li>
+##                <li url="" name="move">大客户打包</li>
+                <li url="$!homeModule/outstock/toPackInfoBatch.jhtml" name="packinfobatch">大订单打包</li>
+                <li url="$!homeModule/outstock/toTransOrder.jhtml" name="transorder">交接</li>
+                <li url="$!homeModule/outstock/toOutstock.jhtml" name="outorder">出库</li>
+                <li url="$!homeModule/outstock/toCancelOrder.jhtml" name="cancelorder">退拣查询</li>
+                <li url="$!homeModule/outstock/toOutstockOrder.jhtml" name="queryorder">订单查询</li>
+                <li url="$!homeModule/outstock/toOutstockQueryPackOrder.jhtml" name="querypackorder">查看包装</li>
+                <li url="$!homeModule/outstock/toOutstockSMSFilter.jhtml" name="smsfilter">信息过滤</li>
+                <li url="$!homeModule/outstock/toOutstockSMSInfo.jhtml" name="smsinfo">发送短信查询</li>
+                <li url="$!homeModule/outstock/toOrderItemInfo.jhtml" name="orderItemInfo">发货单明细查询</li>
+                <li url="$!homeModule/outstock/toOutstockPickOperLog.jhtml" name="outstockpickoperlog">拣货任务日志</li>
+                <li url="$!homeModule/outstock/toWarehousezonestatic.jhtml" name="warehousezonestatic">分区拣货跟踪</li>
+                <li url="$!homeModule/outstock/toOutstockWcs.jhtml" name="wcs">分拣</li>
+            </ul>
+        </div>
+        <!-- 左侧菜单 end-->
+    </div>
+
+    <div id="o-switch" onclick="switchSysBar()" class="picBox_show"></div>
+
+    <div id="o-right">
+        <div id="tabs" style="height:100%">
+            <ul>
+            ##                <li><a href="#tabs-1">托盘管理</a> <span class="ui-icon ui-icon-close" role="presentation">Remove Tab</span></li>
+            </ul>
+        ##            <div id="tabs-1" style="height:84%">
+        ##                <iframe src="$!homeModule/base1/toPalletList.jhtml" frameborder="0"
+        ##                        scrolling="auto" width="100%" height="100%"></iframe>
+        ##            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="bottom">
+        <h3>WMS - 中粮我买网技术部 CopyRight <span class="fontArial">&copy;</span> 2015</h3>
+    </div>
+</div>
+
+<!-- 主页js控制 -->
+<script type="text/javascript" src="$!homeModule/js/index.js?v=3.5.1"></script>
